@@ -1,6 +1,8 @@
 .cover__titles {
-    position:absolute;
     display: flex;
     flex-direction: column;
     align-items: center;
+    position: absolute;
+    top: calc(245px - (740px - 100%)/2);
+    left: calc(360px - (1280px - 100%)/2);
 }
