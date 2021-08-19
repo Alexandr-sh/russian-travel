@@ -1,5 +1,11 @@
 .places__place {
+    margin-top: 80px;
     display: grid;
-    grid-template-rows: 460px;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: min-content 1fr;
+    row-gap: 48px;
+    column-gap: 40px;
+}
+
+.places__place:first-child {
+    margin-top: 0;
 }
