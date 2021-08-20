@@ -9,3 +9,9 @@
 .places__place:first-child {
     margin-top: 0;
 }
+
+@media all (max-width: 1279px){
+    .places__place {
+        column-gap: 32px;
+    }
+}
