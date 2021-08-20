@@ -1,3 +1,9 @@
 .places__image {
     width: 460px;
 }
+
+@media all and (max-widht: 1279px) {
+    .places__image {
+        width: 440px;
+    }
+}

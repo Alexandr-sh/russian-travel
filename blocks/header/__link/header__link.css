@@ -9,3 +9,7 @@
   text-decoration-line: underline;
   color: #ffffff;
 }
+
+.header__link:hover {
+  opacity: 0.8;
+}

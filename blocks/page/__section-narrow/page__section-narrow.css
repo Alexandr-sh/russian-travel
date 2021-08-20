@@ -2,3 +2,9 @@
     padding: 0 148px;
     margin: 0 auto 92px auto;
 }
+
+@media all and (max-width: 1279px){
+    .page__section-narrow {
+        padding: 0 48px;
+    }
+}
