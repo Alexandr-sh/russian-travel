@@ -19,3 +19,14 @@
         padding: 0;
     }
 }
+
+@media all and (max-width: 767px) {
+    .page__section-narrow {
+        padding: 0 16px;
+        margin: 0 auto 64px auto;
+    }
+
+    .page__section-narrow.places {
+        padding: 0;
+    }
+}
