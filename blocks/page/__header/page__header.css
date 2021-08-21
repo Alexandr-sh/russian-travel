@@ -15,4 +15,11 @@
     }
 }
 
+@media all and (max-width: 767px){
+    .page__header {
+        padding: 0 16px;
+        margin: 16px auto 16px auto;
+    }
+}
+
     
