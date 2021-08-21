@@ -9,4 +9,10 @@
     }
 }
 
+@media all and (max-width: 1023px){
+    .page__header {
+        padding: 0 24px;
+    }
+}
+
     

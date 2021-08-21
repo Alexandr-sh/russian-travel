@@ -10,8 +10,15 @@
     margin-top: 0;
 }
 
-@media all (max-width: 1279px){
+@media all and (max-width: 1279px){
     .places__place {
         column-gap: 32px;
+    }
+}
+
+@media all and (max-width: 1279px){
+    .places__place {
+        margin-top: 73px;
+        column-gap: 28px;
     }
 }

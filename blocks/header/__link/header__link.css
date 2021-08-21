@@ -1,5 +1,6 @@
 .header__link {
   margin: 0;
+  margin-bottom: 6px;
   align-self: flex-end;
   font-style: normal;
   font-weight: normal;

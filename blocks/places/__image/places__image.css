@@ -7,3 +7,9 @@
         width: 440px;
     }
 }
+
+@media all and (max-width: 1023px) {
+    .places__image {
+        width: 340px;
+    }
+}
