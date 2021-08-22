@@ -10,6 +10,6 @@
   text-rendering: optimizeLegibility;
 }
 
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
   width: 0;
-}
+}*/

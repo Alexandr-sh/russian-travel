@@ -2,3 +2,9 @@
     display: flex;
     justify-content: flex-start;
 }
+
+@media all and (max-width: 767px){
+    .footer__links {
+        flex-direction: column;
+    }
+}
