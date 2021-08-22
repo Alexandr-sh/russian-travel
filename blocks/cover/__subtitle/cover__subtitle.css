@@ -1,6 +1,6 @@
 .cover__subtitle {
   margin: 32px 0 0 0;
-  max-width: 360px;
+  width: 360px;
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
@@ -11,6 +11,7 @@
 
 @media all and (max-width: 737px) {
   .cover__subtitle {
+    width: 288px;
     margin: 16px 0 0 0;
     font-size: 14px;
     line-height: 16px;
