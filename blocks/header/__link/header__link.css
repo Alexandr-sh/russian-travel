@@ -1,6 +1,5 @@
 .header__link {
   margin: 0;
-  margin-bottom: 6px;
   margin-left: 18px;
   align-self: flex-end;
   font-style: normal;
@@ -18,10 +17,6 @@
 
 .header__link:active {
   text-decoration: underline;
-}
-
-.header__link:first-of-type {
-  margin-left: auto;
 }
 
 @media all and (max-width: 767px) {
