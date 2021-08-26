@@ -1,18 +1,27 @@
 .header__link {
   margin: 0;
   margin-bottom: 6px;
+  margin-left: 18px;
   align-self: flex-end;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 28px;
   text-align: right;
-  text-decoration-line: underline;
+  text-decoration-line: none;
   color: #ffffff;
 }
 
 .header__link:hover {
   opacity: 0.8;
+}
+
+.header__link:active {
+  text-decoration: underline;
+}
+
+.header__link:first-of-type {
+  margin-left: auto;
 }
 
 @media all and (max-width: 767px) {
